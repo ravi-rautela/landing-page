@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+ul li a {
+    text-decoration: none;
+    margin: 0 12px;
+    color: #252525;
+}
+
+.left-section img {
+    height: 2.1rem;
+    cursor: pointer;
+}
+
+.nav {
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.middle-section ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+    transition: all 0.3s linear;
+}
+
+ul li:hover {
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+
+.right-section {
+    background: linear-gradient(135deg, rgb(255, 0, 0) 0%, rgb(255, 247, 0) 100%);
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 37px;
+    width: 131px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.right-section a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Hero section CSS start here */
+.hero-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 90px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.hero-section .left-div {
+    width: 50%;
+}
+
+.left-div h1 {
+    font-size: 50px;
+    font-family: "DM Sans",
+        sans-serif;
+    margin-bottom: 10px;
+}
+
+.left-div p {
+    font-size: 18px;
+    font-family: "DM Sans",
+        sans-serif;
+    ;
+    font-style: normal;
+    color: #858484;
+    margin-bottom: 10px;
+}
+
+.hero-section .right-div {
+    text-align: center;
+    width: 50%;
+}
+
+.right-div img {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.right-div .circle-1 {
+    position: absolute;
+    overflow: visible;
+    width: 199px;
+    top: 10rem;
+    left: 66rem;
+    flex: 0 0 auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 96px;
+    box-shadow: rgba(255, 143, 15, 0.5) 0px 10px 20px 0px;
+    background: linear-gradient(135deg, rgb(255, 0, 0) 0%, rgb(255, 247, 0) 100%);
+}
+
+.right-div .circle-2 {
+    position: absolute;
+    overflow: visible;
+    width: 70px;
+    top: 8rem;
+    left: 42rem;
+    flex: 0 0 auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 96px;
+    box-shadow: rgba(255, 143, 15, 0.5) 0px 10px 20px 0px;
+    background: linear-gradient(135deg, rgb(255, 0, 0) 0%, rgb(255, 247, 0) 100%);
+}
+
+.right-div .circle-3 {
+    position: absolute;
+    overflow: visible;
+    width: 100px;
+    top: 30rem;
+    left: 67rem;
+    flex: 0 0 auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 96px;
+    box-shadow: rgba(255, 143, 15, 0.5) 0px 10px 20px 0px;
+    background: linear-gradient(135deg, rgb(255, 0, 0) 0%, rgb(255, 247, 0) 100%);
+}
+
+.right-div .circle-4 {
+    position: absolute;
+    overflow: visible;
+    width: 199px;
+    top: 25rem;
+    left: 39rem;
+    flex: 0 0 auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 96px;
+    box-shadow: rgba(255, 143, 15, 0.5) 0px 10px 20px 0px;
+    background: linear-gradient(135deg, rgb(255, 0, 0) 0%, rgb(255, 247, 0) 100%);
+}
+
+.second-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.second-hero .left-image {
+    width: 50%;
+}
+
+.left-image img {
+    width: 100%;
+}
+
+.second-hero .right-content {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.right-content h2 {
+    font-size: 34px;
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 10px;
+}
+
+.right-content p {
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 10px;
+    font-style: normal;
+    color: #858484;
+}
+
+.right-content a {
+    font-weight: 800;
+    color: blue;
+}
+
+.margin-20 {
+    margin-left: 20px;
+}
+
+/* CSS for card sction */
+.dark-cards {
+    width: 100%;
+    height: fit-content;
+    padding: 60px 40px;
+    background-color: #252525;
+    text-align: center;
+}
+
+/* CSS for card section */
+.heading h1 {
+    font-size: 50px;
+    font-family: "DM Sans", sans-serif;
+    width: 44%;
+    margin: auto;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.heading p {
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    width: 70%;
+    margin: auto;
+    color: rgb(163, 165, 167);
+    margin-bottom: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.cards .card {
+    height: 200px;
+    width: 300px;
+    border: 2px solid rgb(238, 127, 63);
+    border-radius: 22px;
+    color: white;
+    padding: 20px;
+}
+
+.card h2 {
+    margin: 20px 2px;
+    font-size: 30px;
+}
+
+.card p {
+    line-height: 30px;
+    font-size: 18px;
+    color: #adacac;
+}
+
+/* footer content */
+.footer-content {
+    max-height: fit-content;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-text:hover {
+    color: #858484;
+    cursor: pointer;
+}
+
+.right-content i {
+    margin-left: 10px;
+    cursor: pointer;
+}
